@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.perscholas.java_basics;
+
+import java.util.Scanner;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class BodyMassIndex {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		double weightinKg,bmi,heightInMeters;
+		weightinKg = scanner.nextDouble();
+
+	}
+
+}

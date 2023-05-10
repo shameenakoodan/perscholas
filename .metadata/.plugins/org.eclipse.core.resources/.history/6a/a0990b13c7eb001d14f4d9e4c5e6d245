@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package perscholas.shameena.readingfromconsole;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class OperatorsAndNumbersDemo3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int x=7,y=17,z;
+		/*
+		 * x = 00111
+		 * y = 10001
+		 * x | y = 00001 = 1
+		 */
+		String binaryAndString = Integer.toBinaryString(x) & Integer.toBinaryString(y);
+		int z = Integer.parseInt(( ),2);
+		System.out.println(z);
+	}
+
+}

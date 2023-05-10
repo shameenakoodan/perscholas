@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package com.perscholas.java_basics;
+
+import java.util.Scanner;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class BodyMassIndex {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		double weightinKg,bmi,heightInMeters;
+		System.out.println("What is your weight");
+		weightinKg = scanner.nextDouble();
+		System.out.println("What is your height");
+		heightInMeters = scanner.nextDouble();
+		String interpretation= "";
+		bmi = weightinKg / (heightInMeters *heightInMeters);
+		
+		//Determine the interpretation
+		if(bmi<18.5) {
+			interpretation = "Underweight";
+		}
+		else  if(bmi>= 18.5 && bmi <25.0) {
+			System.out.println("Normal");
+		}
+		else if(bmi>=25.0 && bmi <30.0){
+			System.out.println("Overweight");
+		}
+		else if (bmi>30)
+			System.out.println("Obese");
+		System.out.println("You BMI for " + weightinKg + " Kg and "+heightInMeters + "m is "+ bmi + " and you are allegdly " + );
+		scanner.close();
+	}
+
+}

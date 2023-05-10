@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class AssignmentOperators {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int x = 5;
+		System.out.println(x);
+		//This is equivalent to x = x+5 
+		x += 5; //x = x + 5
+		System.out.println(x);
+		//This is equivalent to x = x-5 
+		x -= 5; //x = x - 5
+		System.out.println(x);
+		//This is equivalent to x = x*5 
+		x *= 5; //x = x * 5
+		System.out.println(x);
+		//This is equivalent to x = x/5 
+		x /= 5; //x = x / 5
+		System.out.println(x);
+		//This is equivalent to x = x%5 
+		x %= 5; //x = x % 5
+		System.out.println(x);
+		x <<= 5; //x = x << 5
+		System.out.println(x);
+		x >>= 5; //x = x >> 5
+		System.out.println(x);
+		//Add bitwise 
+		x &= 5; //x = x & 5
+		System.out.println(x);
+		/*
+		 * "^" is an operator in Java that provides the answer 
+		 * '1' if both of the bits in its operands are different,
+		 *  if both of the bits are same then the XOR operator gives the result '0'
+		 */
+		x ^= 5; //x ^= 5
+		System.out.println(x);
+		//False if all conditions are false	
+		x |= 5; //x = x | 5
+		System.out.println(x);
+	}
+
+}

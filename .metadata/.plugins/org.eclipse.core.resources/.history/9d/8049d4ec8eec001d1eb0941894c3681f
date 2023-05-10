@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package perscholas.shameena.hackerrank;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class FourthBit {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

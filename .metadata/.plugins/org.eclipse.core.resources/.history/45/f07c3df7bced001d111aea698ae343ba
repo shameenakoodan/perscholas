@@ -1,0 +1,34 @@
+package perscholas.shameena.hackerrank;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class MergeTwoArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Integer> aIntegers = new ArrayList<>(Arrays.asList(1, 2, 3));
+		
+	}
+	public static List<Integer> mergeArrays(List<Integer> a, List<Integer> b) {
+	    List<Integer> array = new ArrayList<>();
+	    for (Integer aElement : a) {
+            for(Integer bElement:b) {
+            	if(aElement == bElement) {
+            		array.add(aElement);
+            		array.add(bElement);
+            	}
+            	else if(bElement<aElement) {
+            		array.add(bElement);
+            	}
+            	else {
+					array.add(bElement);
+				}
+            }
+        }
+	    return array;
+
+	    }
+}

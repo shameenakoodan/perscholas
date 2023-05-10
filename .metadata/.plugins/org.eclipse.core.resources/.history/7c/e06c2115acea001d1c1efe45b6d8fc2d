@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+import java.util.Scanner;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class TimeConversion {
+
+	/**
+	 * @param args
+	 * Write a Java program to convert a total amount of seconds to 
+	 * the hour, minute, and seconds.
+
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int seconds = scanner.nextInt();
+		int minutes = seconds / 60 ;
+		int remainingseconds = seconds %60;
+		System.out.println(minutes);
+		int hour = minutes%60;
+		int remainingMinutes = minutes%60
+		System.out.println(hour);
+
+	}
+
+}

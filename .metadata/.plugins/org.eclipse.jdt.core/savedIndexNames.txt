@@ -1,0 +1,10 @@
+INDEX VERSION 1.132+/Users/homeoffice/Shameena/PerScholas/Java Tutorials/.metadata/.plugins/org.eclipse.jdt.core
+2974769163.index
+2686186264.index
+348914333.index
+1188775831.index
+1558391358.index
+3981875041.index
+1865797976.index
+752601561.index
+3995248317.index

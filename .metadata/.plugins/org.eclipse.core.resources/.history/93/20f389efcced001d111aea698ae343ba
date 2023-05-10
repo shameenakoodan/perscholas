@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+import java.util.Scanner;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class ChineseZodiac {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+	}
+
+}

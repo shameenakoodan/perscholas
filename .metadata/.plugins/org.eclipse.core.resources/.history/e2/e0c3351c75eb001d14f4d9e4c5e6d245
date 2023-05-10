@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+import java.util.StringJoiner;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class StringJoinerDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//String joiner demo
+		StringJoiner joinNames = new StringJoiner(",");
+
+	}
+
+}

@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class CharacterClassDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//Wrapper character class demo
+		Character letterCharacter =  new Character('g');
+				
+
+	}
+
+}

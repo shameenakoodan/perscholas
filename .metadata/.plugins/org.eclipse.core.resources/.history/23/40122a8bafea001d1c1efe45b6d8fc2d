@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class DemoCasting {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// Explicit type casting(narrowing)
+		//(target-type) value
+		int x;
+		double y=9.99;
+		x = (int)y; //Converting a larger data type
+		//to a smaller ranged data type
+		System.out.println(x);
+		
+	}
+
+}

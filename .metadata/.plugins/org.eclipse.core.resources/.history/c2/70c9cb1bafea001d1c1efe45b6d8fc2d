@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class DemoCasting {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// Explicit type casting
+		
+
+	}
+
+}

@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package perscholas.shameena.hackerrank;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class FourthBit {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println(fourthBit(90998));
+
+	}
+
+	public static int fourthBit(int number) {
+        String binaryString = Integer.toBinaryString(number);
+        System.out.println(binaryString);
+        int bit = binaryString.charAt(3);
+        for(int i=0;i<binaryString.length();i++) {
+        	System.out.println(binaryString.charAt(i));
+        }
+        StringBuffer brBuffer = new StringBuffer(binaryString);
+        binaryString.reverse();
+        String s = Character.toString((char)bit);
+        return Integer.parseInt(s);
+    }
+}

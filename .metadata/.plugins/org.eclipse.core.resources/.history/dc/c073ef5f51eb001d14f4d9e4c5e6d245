@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class WrapperExamples {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//Auto boxing example
+		int a = 20;
+		Integer convertIntoInteger = a;
+		
+		char c = 'A';
+		Character convertIntoCharacter = c;
+		
+		double d = 565.23;
+		Double convertIntoDouble = d;
+		
+		//Unboxing Example
+		Integer integer = 56;
+		
+	}
+
+}

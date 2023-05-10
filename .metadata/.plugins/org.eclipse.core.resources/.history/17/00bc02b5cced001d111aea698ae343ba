@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class switchCaseEnumDemo {
+
+	/**
+	 * @param args
+	 */
+	enum Cars{
+		BMW,
+	       JEEP,
+	       AUDI,
+	       VOLKSWAGON,
+	       NANO,
+	       FIAT;
+	}
+	public static void main(String[] args) {
+		// Declaring Enum variable
+	       Cars c;
+	       c = Cars.AUDI;
+	       // Switch keyword
+	       switch (c) {
+	           // Case statements
+	           case BMW:
+	               System.out.println("You choose BMW !");
+	               break;
+	           case JEEP:
+	               System.out.println("You choose JEEP !");
+	               break;
+
+
+	}
+
+}

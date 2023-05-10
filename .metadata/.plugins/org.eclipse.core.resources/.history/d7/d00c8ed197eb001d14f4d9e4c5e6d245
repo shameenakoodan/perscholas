@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package perscholas.shameena.stringmethods;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class indexOfDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String str1 = "Java is fun";
+	       int result;
+
+	       // getting index of character 's'
+	       result = str1.indexOf('s');
+
+	       System.out.println(result); // 6
+
+	       // getting index of character 'J'
+	       result = str1.lastIndexOf('J');
+	       System.out.println(result); // 0
+
+
+	}
+
+}

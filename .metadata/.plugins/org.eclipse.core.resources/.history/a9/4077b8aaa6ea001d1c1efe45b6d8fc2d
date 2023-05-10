@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+import java.util.Scanner;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class DemoTernary {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner inpScanner = new Scanner(System.in);
+		int yourAge;
+		System.out.println("Please enter your age");
+		yourAge = inpScanner.nextInt();
+
+	}
+
+}

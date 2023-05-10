@@ -1,0 +1,105 @@
+/**
+ * 
+ */
+package com.perscholas.java_basics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class JavaBasicsClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		// Declare two integer variables
+		int number1, number2;
+
+		// Assign value to the variables
+		number1 = 20;
+		number2 = 10;
+
+		// Add the numbers
+		int sum = number1 + number2;
+
+		// Display the result
+		System.out.println(number1 + " + " + number2 + " = " + sum);
+
+		// Declare two double variables
+		double doubleNumber1, doubleNumber2;
+
+		// Assign value to the variables
+		doubleNumber1 = 20.50;
+		doubleNumber2 = 10.60;
+
+		// Add the numbers
+		double sumofDouble = doubleNumber1 + doubleNumber2;
+
+		// Display the result
+		System.out.println(doubleNumber1 + " + " + doubleNumber2 + " = " + sumofDouble);
+		
+		//Declare an integer variable and a double variable
+		int number3;
+		double doubleNumber3;
+		
+		//Assign numbers to each
+		number3 = 40;
+		doubleNumber3 = 10.56;
+		
+		//Sum of double and integer
+		double doubleNumber4 = number3 + doubleNumber3;
+		
+		// Display the result
+		System.out.println(number3 + " + " + doubleNumber3 + " = " + doubleNumber4);
+		
+		// Declare two integer variables
+		int number4, number5;
+		
+		// Assign value to the variables
+				number4 = 20;
+				number5 = 10;
+		//Divides the larger number by the smaller number.
+		int divide = number4 / number5;
+		
+		// Display the result
+		System.out.println(number4 + " / " + number5 + " = " + divide);
+		
+		//Change larger number to decimal
+		//Since floating literals cannot be assigned to integer variables create a new double variable 
+		//or else we can cast but it will result in loosing decimal values.
+		double number6  = 20.5;
+		
+		//Declares two double variables and assign values
+		double doubleNumber5 = 30.4;
+		double doubleNumber6 = 60.7;
+		
+		//Divides the larger by the smaller number 
+		//Assign the result to a variable
+		double doubleDivide = doubleNumber6 / doubleNumber5;
+		
+		//Print out the result. 
+		System.out.println(doubleNumber6 + " / " + doubleNumber5 + " = " + doubleDivide);
+		
+		// cast the result to an integer
+		int castDoubletoInt = (int)doubleDivide;
+		//Print out the result again
+		System.out.println(doubleNumber6 + " / " + doubleNumber5 + " = " + castDoubletoInt);
+		
+		//declares two integer variables, x and y, and assigns the number 5 to x and the number 6 to y
+		int x = 5, y= 6;
+		//Declare a variable q and assign y/x to it 
+		int q = y/x;
+		//print q
+		System.out.println(y + " / " + x + " = " + q);
+		
+		double ydouble = (double)y;
+		q=y/x;
+		System.out.println();
+		System.out.println(y + " / " + x + " = " + q);
+
+		
+	}
+
+}

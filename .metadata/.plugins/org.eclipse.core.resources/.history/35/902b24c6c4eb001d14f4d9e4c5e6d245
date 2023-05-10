@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package perscholas.shameena.readingfromconsole;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class OperatorsAndNumbersDemo2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int x = 150;
+		String binaryString = Integer.toBinaryString(x);
+		System.out.println("Binary of "+ x + " is " + binaryString);
+
+		/*
+		 * Binary of  150  = 10010110
+		 * 10010110 >> 2   = 00100101
+		 * 00100101		   = 37
+		 */
+		x = x<<2;
+		System.out.println("After right shift by 2 the value is " + x + "\n");
+	}
+
+}

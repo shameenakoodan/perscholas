@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class TimeConversion {
+
+	/**
+	 * @param args
+	 * Write a Java program to convert a total amount of seconds to 
+	 * the hour, minute, and seconds.
+
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class VariablesAndDataTypes {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	// Avaraible is a memory location  - where we save stuff
+		
+
+	}
+
+}

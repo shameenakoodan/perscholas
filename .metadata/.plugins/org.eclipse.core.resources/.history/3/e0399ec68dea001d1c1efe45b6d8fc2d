@@ -1,0 +1,15 @@
+package introtojavabasics;
+
+public class UnaryOperators {
+
+	public static void main(String[] args) {
+		// Unary operators
+		int a=20,b=10,c=0,d=20,e=40,f=30;
+		int result = -a;
+		System.out.println(a + " is changed to " + result);
+		result = +a;
+		System.out.println(-result + " is changed to " + result);
+
+	}
+
+}

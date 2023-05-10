@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class VariablesAndDataTypes {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	// A varaible is a memory location  - where we save stuff
+		byte smallNumber;
+		//A middle sized number
+		short aLittleBiggerNumber;
+		//A little bit bigger
+		int aLiitleBitBiggerNumber;
+		long longerNumber;
+
+	}
+
+}

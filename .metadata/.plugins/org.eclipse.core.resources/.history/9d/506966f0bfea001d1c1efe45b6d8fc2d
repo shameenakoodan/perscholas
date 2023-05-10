@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class AutoTypeConversion {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 20;
+	       double y = 40.5;
+	}
+
+}

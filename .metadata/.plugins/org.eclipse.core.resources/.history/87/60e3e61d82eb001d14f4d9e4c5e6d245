@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+import java.util.Scanner;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class MonetaryUnits {
+
+	/**
+	 * @param args
+	 * Write a program that lets the user enter decimal dollars and cents, 
+	 * and outputs the monetary equivalent in single dollars, quarters, 
+	 * dimes, nickels, and pennies.
+
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the money");
+		double valueEntered = scanner.nextDouble();
+		int pennies = (int) (valueEntered * 100);
+		System.out.println("Pennies" + pennies);
+		int dollar = pennies / 100;
+		System.out.println("Dollar" + dollar);
+		int cents = pennies %100;
+		System.out.println(cents);
+		int dimes  = afterdecimal / 5;
+		System.out.println("Dimes " + dimes);
+
+	}
+
+}

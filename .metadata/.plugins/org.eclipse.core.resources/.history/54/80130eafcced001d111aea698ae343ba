@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class switchCaseEnumDemo {
+
+	/**
+	 * @param args
+	 */
+	enum Cars{
+		BMW,
+	       JEEP,
+	       AUDI,
+	       VOLKSWAGON,
+	       NANO,
+	       FIAT;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package perscholas.shameena.readingfromconsole;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class OperatorsAndNumbersDemo3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int x=7,y=17,z;
+		/*
+		 * x = 00111
+		 * y = 10001
+		 * x | y = 
+		 */
+
+	}
+
+}

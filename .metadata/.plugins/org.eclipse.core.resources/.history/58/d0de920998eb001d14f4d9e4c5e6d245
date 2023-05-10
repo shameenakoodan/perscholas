@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package perscholas.shameena.stringmethods;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class containsDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String str1 = "Learn Java";
+
+
+	}
+
+}

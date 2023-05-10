@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package introtojavabasics;
+
+import java.util.Scanner;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class LearningScanner {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// How to create a Scanner object
+		Scanner inputScanner  = new Scanner(System.in);
+		/*
+		 * Scanner comes from the util package
+		 * The compiler automatically imports the System package for us
+		 * So we don't have to import it explicitly
+		 * 
+		 */
+		
+		
+
+	}
+
+}

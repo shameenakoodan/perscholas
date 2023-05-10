@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package perscholas.shameena.readingfromconsole;
+
+/**
+ * @author homeoffice
+ *
+ */
+public class OperatorsAndNumbersDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int x = 2;
+		String binaryString = Integer.toBinaryString(x);
+		System.out.println(binaryString);
+		
+		/*
+		 * 0010
+		 * 0100
+		 * Ans = 4
+		 */
+		x = x<<1;
+		System.out.println(x);
+		x=9;
+		binaryString = Integer.toBinaryString(x);
+		System.out.println(binaryString);
+	}
+
+}
