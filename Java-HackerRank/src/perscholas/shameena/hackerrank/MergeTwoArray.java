@@ -21,8 +21,15 @@ public class MergeTwoArray {
             	if(bElement<aElement) {
             		array.add(bElement);
             	}
+            	else if(aElement == bElement)
+            	{
+            		array.add(bElement);
+            		array.add(aElement);
+            	}else {
+            		array.add(aElement);
+				}
             }
-            array.add(aElement);
+            //array.add(aElement);
         }
 	    return array;
 
