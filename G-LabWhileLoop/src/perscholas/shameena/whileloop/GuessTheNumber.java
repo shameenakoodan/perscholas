@@ -27,7 +27,7 @@ public class GuessTheNumber {
 			System.out.println("Guess a magic number between 0 and 100 ");
 			guess = scanner.nextInt();
 			if (guess == number)
-				System.out.println("Success!!");
+				System.out.println("Sucscess!!");
 			else if (guess > number)
 				System.out.println("input is too high");
 			else {
