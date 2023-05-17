@@ -18,6 +18,16 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/GLab-Abstraction.zip"/>
+			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/GLab-PolymorphismOverRidingInheritanceTypeCasting.zip"/>
+			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/GLab-InheritanceAndCasting.zip"/>
+			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/PA-PolymorphismAndInterface.zip"/>
+			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials//GLab-PolymorphismAndInterface.zip"/>
+			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials//GLab-HowToUseAnInterface.zip"/>
+			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/OOP-ClassExcercise.zip"/>
+			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/GLab-BasicInheritanceExample.zip"/>
+			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/GLab-EncapsulationBMI.zip"/>
+			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/GLab-Arrays.zip"/>
 			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/GLab-ForLoop.zip"/>
 			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/GLab-WhileLoop.zip"/>
 			<item value="/Users/homeoffice/Shameena/PerScholas/Java Tutorials/PA-Loops.zip"/>
