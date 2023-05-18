@@ -8,6 +8,7 @@ public class MyRunner {
 	       obj.printValues(43); //type Integer
 	       obj.printValues("Programmer");//type String
 	       obj.printValues(54.43);//type Double
+	       obj.printValues(true); // type Boo
 
 	       System.out.println( "===invoking static method========" );
 	       GenericMethodExample.staticdisplayData(254);
