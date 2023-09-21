@@ -2,6 +2,7 @@ package perscholas.shameena.hackerrank;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -16,30 +17,11 @@ public class MergeTwoArray {
 		System.out.println(resIntegers);
 	}
 	public static List<Integer> mergeArrays(List<Integer> a, List<Integer> b) {
-		Iterator<Integer> aIterator = a.iterator();
-		Iterator<Integer> bIterator = b.iterator();
-		while(!a.isEmpty() && !b.isEmpty()) {
-			if(aIterator.next() == bIterator.next())
-		}
-		
-		
-	    List<Integer> array = new ArrayList<>();
-	    for (Integer aElement : a) {
-            for(Integer bElement:b) {
-            	if(bElement<aElement) {
-            		array.add(bElement);
-            	}
-            	else if(aElement == bElement)
-            	{
-            		array.add(bElement);
-            		array.add(aElement);
-            	}else {
-            		array.add(aElement);
-				}
-            }
-            //array.add(aElement);
-        }
-	    return array;
+		List<Integer> resultIntegers = new ArrayList<Integer>();
+        resultIntegers.addAll(a);
+        resultIntegers.addAll(b);
+        Collections.sort(resultIntegers);
+        return resultIntegers;
 
 	    }
 }

@@ -1,102 +1,95 @@
 package perscholas.shameena.hackerrank;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
+
+
 interface Building{
     void floorCompleted(int floorNumber);
     void printStatus(int floorNumber);
     void printNumberOfFloors();
 }
+
+/* model output for cut and paste
+A ____ is being constructed
+Construction for floor number ____ completed in ____
+Floor number ____ does not exist in ____
+Construction for floor number ____ completed in ____
+Construction for floor number ____ not completed in ____ 
+The ____ has ____ floors
+*/
+
 class School implements Building{
-	int floors[];
-	School(int n) {
-		// TODO Auto-generated constructor stub
-		floors = new int[n];
-		Arrays.fill(floors,0);
+    ArrayList<Integer> floors;
+    School(int n){
+        super();
+        floors = new ArrayList<>(Collections.nCopies(n+1, 0));
         System.out.println("A school is being constructed");
-	}
-	@Override
-	public void floorCompleted(int floorNumber) {
-		int n = floors.length;
-		if(floorNumber<=n) {
-			floors[floorNumber-1] = 1;
-			System.out.println("Construction for floor number "+floorNumber+" completed in school");
-		}
-		else {
-            System.out.println("Floor number "+floorNumber + " does not exist in school");
-		}
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void printStatus(int floorNumber) {
-		int n = floors.length;
-		if(floorNumber>=n)
-		{
-            System.out.println("Floor number "+floorNumber + " does not exist in school");
-		}
-		else if(floors[floorNumber-1] == 1)
+    }
+   @Override
+    public void floorCompleted(int floorNumber){
+        int n= floors.size();     
+        if(floorNumber<=n && floorNumber>0){
+            floors.set(floorNumber, 1);
             System.out.println("Construction for floor number "+floorNumber+ " completed in school");
-		else {
-			System.out.println("Construction for floor number "+floorNumber+ " not completed in school");
-		}
-		
-	}
-
-	@Override
-	public void printNumberOfFloors() {
-        System.out.println("The school has "+floors.length+" floors");		
-	}
-	
+        }
+        else if(floorNumber>n){
+            System.out.println("Floor number "+floorNumber + " does not exist in school");
+        }
+    }
+    @Override
+    public void printStatus(int floorNumber){
+        int n = floors.size();
+        if(floorNumber>n)
+            System.out.println("Floor number "+floorNumber + " does not exist in school");
+        else if(floorNumber >=0 && floors.get(floorNumber)==1)
+        System.out.println("Construction for floor number "+floorNumber+ " completed in school");
+        else if(floorNumber >=0 && floors.get(floorNumber)==0)
+            System.out.println("Construction for floor number "+floorNumber+ " not completed in school");
+    }
+    @Override
+    public void printNumberOfFloors(){
+            System.out.println("The school has "+(floors.size()-1)+" floors");
+    }
 }
 class Hospital implements Building{
-	int floors[];
-	Hospital(int n) {
-		// TODO Auto-generated constructor stub
-		floors = new int[n];
-		Arrays.fill(floors,0);
+	ArrayList<Integer> floors = new  ArrayList<Integer>();
+    Hospital(int n){
+        floors = new ArrayList<>(Collections.nCopies(n+1, 0));
         System.out.println("A hospital is being constructed");
-	}
-	@Override
-	public void floorCompleted(int floorNumber) {
-		int n = floors.length;
-		if(floorNumber<=n) {
-			floors[floorNumber-1] = 1;
-			System.out.println("Construction for floor number "+floorNumber+" completed in hospital");
-		}
-		else {
+    }
+    @Override
+    public void floorCompleted(int floorNumber){
+        int n = floors.size();  
+        if(floorNumber>=n)      
             System.out.println("Floor number "+floorNumber + " does not exist in hospital");
-		}
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void printStatus(int floorNumber) {
-		int n = floors.length-1;
-		if(floorNumber>n) {
-            System.out.println("Floor number "+floorNumber + " does not exist in hospital");
-		}
-		else if(floors[floorNumber-1] == 1)
+        else if(floorNumber >0 && floorNumber<n){
+            floors.set(floorNumber, 1);
             System.out.println("Construction for floor number "+floorNumber+ " completed in hospital");
-		else {
-			System.out.println("Construction for floor number "+floorNumber+ " not completed in hospital");
-		}
-		
-	}
+            
+        }
+    }
+    @Override
+    public void printStatus(int floorNumber){
+        int n = floors.size();
+        if(floorNumber>=n)
+            System.out.println("Floor number "+floorNumber + " does not exist in hospital");
+        else if(floorNumber >=0 && floors.get(floorNumber)==1)
+        System.out.println("Construction for floor number "+floorNumber+ " completed in hospital");
+        else if(floorNumber >=0 && floors.get(floorNumber)==0)
+            System.out.println("Construction for floor number "+floorNumber+ " not completed in hospital");
+    }
+    @Override
+    public void printNumberOfFloors(){
+        System.out.println("The hospital has "+(floors.size()-1)+" floors");
 
-	@Override
-	public void printNumberOfFloors() {
-        System.out.println("The hospital has "+floors.length+" floors");		
-	}
-	
+    }
 }
 public class BuildingImplementation {
-	
-	public static void main(String args[] ) throws Exception {
+    public static void main(String args[] ) throws Exception {
         Scanner sc = new Scanner(System.in);
 
         String[] floors = sc.nextLine().split(" ");
